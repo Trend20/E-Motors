@@ -180,6 +180,12 @@ nav ul li a {
     width: 80%;
 }
 
+
+/* end of hero styles */
+
+
+/* about us styles */
+
 .about-us {
     display: flex;
     width: 100%;
@@ -289,4 +295,119 @@ nav ul li a {
 }
 
 
-/* end of hero styles */
+/* purpose styles */
+
+.purpose {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.purpose-text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.purpose-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.purpose-header h3 {
+    text-transform: uppercase;
+    color: rgb(206, 42, 42);
+    display: flex;
+}
+
+.purpose-header h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    display: flex;
+}
+
+.purpose-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.purpose-description p {
+    width: 90%;
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+
+strong {
+    color: rgb(206, 42, 42);
+    font-weight: 800;
+}
+
+.decription-services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.service {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.service-img {
+    width: 15%;
+    background: rgb(206, 42, 42);
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.service-text h3 {
+    display: flex;
+    font-weight: 700;
+}
+
+.service-text p {
+    display: flex;
+    margin-top: 10px;
+    line-height: 1.5;
+    opacity: 0.6;
+    width: 80%;
+}
+
+.purpose-images {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purpose-images img {
+    width: 40%;
+    height: 500px;
+    margin-right: 20px;
+}
+
+#red {
+    margin-top: 150px;
+}
