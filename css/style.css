@@ -180,5 +180,80 @@ nav ul li a {
     width: 80%;
 }
 
+.about-us {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin: 100px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.head-text h3 {
+    color: rgb(206, 42, 42);
+    text-transform: uppercase;
+}
+
+.head-text h1 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text-description p {
+    margin-top: 20px;
+    display: flex;
+    line-height: 2;
+}
+
+.about-text button {
+    display: flex;
+    width: 40%;
+    outline: none;
+    border: 3px solid rgb(206, 42, 42);
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 
 /* end of hero styles */
