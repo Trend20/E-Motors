@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+
+    <!-- OWL COURESEL CSS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -193,7 +198,89 @@
             </div>
         </div>
         <!-- end of purpose section -->
+
+
+        <!-- car parts -->
+
+        <div class="parts">
+
+            <div class="slider owl-carousel">
+                <div class="card">
+                    <div class="img">
+                        <img src="./images/wheel.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1 class="title">
+                            Custom Wheels
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                        <h1 class="btn">
+                            <button>Read more</button>
+                        </h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./images/motor.png" alt=""></div>
+                    <div class="content">
+                        <h1 class="title">
+                            Motor Parts
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./images/headlights.png" alt=""></div>
+                    <div class="content">
+                        <h1 class="title">
+                            Headlights
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="./images/brakes.png" alt=""></div>
+                    <div class="content">
+                        <h1 class="title">
+                            Brakes&Rotor
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of car parts -->
     </div>
+
+    <!-- OWL Corousel links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
 </body>
 
 </html>
