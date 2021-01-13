@@ -424,6 +424,25 @@ strong {
     align-items: center;
     text-align: center;
     background: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.parts-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.parts-header h3 {
+    text-transform: uppercase;
+    color: rgb(206, 42, 42);
+}
+
+.parts-header h1 {
+    display: flex;
+    margin-top: 10px;
+    font-size: 3rem;
 }
 
 .slider {
@@ -458,6 +477,10 @@ strong {
 
 .slider .card .content {
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card .content .title {
@@ -469,27 +492,26 @@ strong {
     align-items: center;
 }
 
-.card .content .sub-title {
-    font-size: 20px;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
-}
-
-.card .content p {
+.content p {
     text-align: justify;
     margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    opacity: 0.5;
 }
 
-.card .content .btn {
-    display: block;
+.btn {
+    display: flex;
     text-align: left;
     margin: 10px 0;
 }
 
-.card .content .btn button {
-    background: #e74c3c;
-    color: #fff;
+.btn button {
+    color: #e74c3c;
     border: none;
     outline: none;
     font-size: 17px;
@@ -497,6 +519,7 @@ strong {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    background: transparent;
 }
 
 .card .content .btn button:hover {
@@ -505,3 +528,317 @@ strong {
 
 
 /* end of parts styles */
+
+
+/* provision styles */
+
+.provision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(5, 5, 5);
+    color: #fff;
+}
+
+.provision-head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.provision-head h3 {
+    color: rgb(206, 42, 42);
+    text-transform: uppercase;
+}
+
+.provision-head h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.provision-contents {
+    display: flex;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.countries-brand {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid rgb(61, 59, 59);
+}
+
+.countries-brand p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+}
+
+#america {
+    background: #470c06;
+    opacity: 0.5;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(29, 27, 27);
+}
+
+.brand img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    width: 100% !important;
+}
+
+.brand h3 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    display: flex;
+}
+
+.brand span {
+    border: 1px solid #e74c3c;
+    margin-top: 20px;
+    width: 25%;
+    margin-left: 5px;
+}
+
+.brand p {
+    margin-top: 20px;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.brand a {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 50%;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+/* end of provision styles */
+
+
+/* order section styles */
+
+.order {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #e74c3c;
+    color: #fff;
+}
+
+.request-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.request-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.request-text h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.request-text h1 {
+    font-size: 5rem;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.request-text p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.request-button {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-button button {
+    padding: 25px;
+    width: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.order span {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: .5px solid #fff;
+    font-weight: lighter;
+}
+
+.request-products {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    padding: 50px;
+}
+
+.products {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.products img {
+    display: flex;
+}
+
+.products-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.products-description h3 {
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.products-description p {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+
+/* end of order section styles */
+
+
+/* operations styles */
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.operation-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation-header h3 {
+    color: rgb(206, 42, 42);
+    text-transform: uppercase;
+}
+
+.operation-header h1 {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.operation-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.operations-demo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.operations-demo img {
+    margin-left: 20px;
+}
+
+.operation-stats {
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    margin-left: 50px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats h1 {
+    color: rgb(206, 42, 42);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.stats span {
+    border: 1px solid #bbb1ae;
+    margin-top: 20px;
+    width: 20%;
+}
+
+.stats h3 {
+    margin-top: 20px;
+}
+
+
+/* end of operations styles */
