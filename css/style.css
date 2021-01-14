@@ -73,7 +73,7 @@ nav ul li a {
 }
 
 .fab {
-    background: rgb(223, 48, 48);
+    background: #e74c3c;
     color: #fff;
     padding: 10px;
 }
@@ -1045,6 +1045,7 @@ strong {
 #footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
     width: 100%;
     background: #000;
     padding: 50px;
@@ -1053,5 +1054,62 @@ strong {
     color: #fff;
 }
 
-.footer-contents
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contents a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.footer-contents h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer-contents p {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.footer-icons {
+    margin-top: 30px;
+}
+
+.footer-icons i {
+    background: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+    background: #464443;
+    border: none;
+}
+
+#form button {
+    margin-top: 20px;
+    border: none;
+    background: #e74c3c;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+
 /* footer styles */
