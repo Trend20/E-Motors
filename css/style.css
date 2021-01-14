@@ -1038,3 +1038,20 @@ strong {
 
 
 /* end of contact styles section */
+
+
+/* footer styles */
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    background: #000;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.footer-contents
+/* footer styles */
