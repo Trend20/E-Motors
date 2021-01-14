@@ -1004,6 +1004,7 @@ strong {
     margin-top: 10px;
     opacity: 600;
     font-size: 1.2rem;
+    opacity: .6;
 }
 
 .details-container a {
@@ -1024,6 +1025,15 @@ strong {
 
 .schedule button {
     padding: 20px;
+    width: 150%;
+    text-transform: uppercase;
+    background: rgb(223, 48, 48);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: .7rem;
 }
 
 
