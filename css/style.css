@@ -937,3 +937,13 @@ strong {
 
 
 /* end of testimonials */
+
+
+/* partners section styles */
+
+.partners {
+    display: flex;
+}
+
+
+/* end of partners styles */
