@@ -33,21 +33,28 @@
         <!-- header -->
 
         <header>
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./images/logo1.svg" alt="" style="width: 10rem;">
+                </a>
+            </div>
+            <!-- end of logo -->
 
             <!-- navigation bar -->
             <nav>
                 <ul>
                     <!-- nav link -->
-                    <li><a href="#">About us</a></li>
+                    <li><a href="#about">About us</a></li>
 
                     <!-- nav link -->
                     <li><a href="#">Auto parts</a></li>
 
                     <!-- nav link -->
-                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
 
                     <!-- nav link -->
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
                 <div class="social-icons">
                     <!-- social link -->
@@ -102,7 +109,7 @@
 
         <!-- about us section -->
 
-        <div class="about-us">
+        <div class="about-us" id="about">
             <div class="about-image">
                 <img src="./images/mechanic.jpeg" alt="mechanic">
             </div>
@@ -450,7 +457,7 @@
 
         <!-- testimonials section-->
 
-        <div class="testimonials">
+        <div class="testimonials" id="testimonials">
             <div class="testimonials-header">
                 <h3>/testimonials</h3>
                 <h1>What People Say</h1>
@@ -536,7 +543,7 @@
 
         <!-- contact details -->
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="details-container">
                 <h1>Open Hours</h1>
                 <div class="schedule">
@@ -606,6 +613,10 @@
             </form>
         </footer>
         <!-- end of footer section -->
+
+        <div class="chevron" onclick="topFunction()" id="myButton">
+            <i class="fas fa-chevron-up"></i>
+        </div>
     </div>
 
     <!-- OWL Corousel links -->
@@ -621,6 +632,8 @@
             autoplayHoverPause: true,
         });
     </script>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

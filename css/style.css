@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -21,9 +25,14 @@ body {
 header {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
 }
 
 nav {
@@ -54,6 +63,11 @@ nav ul li a {
     display: flex;
     align-items: center;
     font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 42, 42);
+    text-decoration: underline;
 }
 
 .social-icons {
@@ -1065,6 +1079,11 @@ strong {
     padding: 7px;
 }
 
+.footer-contents a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
 .footer-contents h5 {
     font-size: 1.5rem;
     font-weight: 300;
@@ -1113,3 +1132,49 @@ strong {
 
 
 /* footer styles */
+
+
+/* chevron styles */
+
+
+/* .chevron {
+    display: flex;
+    position: absolute;
+    background: #e74c3c;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    top: 1225%;
+    cursor: pointer;
+}
+
+.chevron i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} */
+
+#myButton {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #e74c3c;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    z-index: 99;
+    color: #fff;
+    padding: 10px;
+    transition: ease .5s;
+}
+
+#myButton i {
+    padding: 10px;
+    display: flex;
+}
+
+
+/* end of chevron styles */
