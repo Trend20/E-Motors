@@ -148,6 +148,7 @@ nav ul li a:hover {
     background: #000;
     color: #fff;
     padding-top: 100px;
+    overflow-x: hidden;
 }
 
 .demo-head {
@@ -168,6 +169,55 @@ nav ul li a:hover {
     font-size: 3rem;
     margin-bottom: 30px;
 }
+
+
+/* jeep section */
+
+.jeep {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.jeep-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.jeep-image img {
+    width: 600px;
+    height: 550px;
+}
+
+.jeep-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 60px;
+}
+
+.jeep-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.jeep-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.jeep-text p {
+    margin-top: 20px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+
+/* end of jeep section */
 
 
 /* end of car demo styles */
