@@ -241,4 +241,146 @@ nav ul li a:hover {
 /* end of jeep section */
 
 
+/* jeep section */
+
+.chrysler {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.chrysler-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.chrysler-image img {
+    width: 600px;
+    height: 550px;
+}
+
+.chrysler-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+}
+
+.chrysler-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.chrysler-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.chrysler-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.chrysler-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chrysler-parts h3 {
+    font-size: 1.5rem;
+}
+
+.chrysler-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.chrysler-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of chrysler section */
+
+
+/* chevrolet section */
+
+.chevrolet {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.chevrolet-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.chevrolet-image img {
+    width: 600px;
+    height: 550px;
+}
+
+.chevrolet-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+}
+
+.chevrolet-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.chevrolet-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.chevrolet-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.chevrolet-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chevrolet-parts h3 {
+    font-size: 1.5rem;
+}
+
+.chevrolet-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.chevrolet-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of chevrolet section */
+
+
 /* end of car demo styles */
