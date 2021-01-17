@@ -196,7 +196,7 @@ nav ul li a:hover {
     flex-direction: column;
     width: 50%;
     background: rgb(17, 17, 17);
-    padding: 60px;
+    padding: 55px;
 }
 
 .jeep-text h1 {
@@ -211,9 +211,30 @@ nav ul li a:hover {
 }
 
 .jeep-text p {
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: 1.8;
     width: 100%;
+}
+
+.jeep-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jeep-parts h3 {
+    font-size: 1.5rem;
+}
+
+.jeep-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.jeep-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
 }
 
 
