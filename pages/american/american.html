@@ -28,7 +28,7 @@
         <header>
             <!-- logo -->
             <div class="logo">
-                <a href="index.html">
+                <a href="../../index.html">
                     <img src="../../images/logo1.svg" alt="" style="width: 10rem;">
                 </a>
             </div>
@@ -176,7 +176,78 @@
             </div>
         </div>
         <!-- end of chevrolet -->
+
+        <div class="request-section">
+            <div class="request-text">
+                <h1>Haven't Found What You Need?</h1>
+                <p>Press the button , fill out the form, and we'll find it for you!</p>
+            </div>
+            <div class="request-button">
+                <button>send a reuest</button>
+            </div>
+        </div>
     </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-contents">
+            <div class="logo">
+                <img src="../../images/logo.svg" alt="" style="width: 7rem;">
+            </div>
+            <p>
+                We are SpareParts, one of the best companies in the USA offeringa the widest selection of spare parts for your car.
+            </p>
+        </div>
+        <div class="footer-contents">
+            <a href="#">About Us</a>
+            <a href="#">American Brands</a>
+            <a href="#">Japanese Brands</a>
+            <a href="#">European brands</a>
+        </div>
+        <div class="footer-contents">
+            <a href="#">Videos</a>
+            <a href="#">Brands</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contacts</a>
+        </div>
+        <div class="footer-contents">
+            <h5>Follow Us</h5>
+            <div class="footer-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <form action="" id="form">
+            <p>Subscribe to get the latest news from us</p>
+
+            <input type="email" name="email" id="email" placeholder="Email*">
+
+            <button>Subscribe</button>
+        </form>
+    </footer>
+    <!-- end of footer section -->
+
+    <div class="chevron" onclick="topFunction()" id="myButton">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    </div>
+
+    <!-- OWL Corousel links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
+
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>
