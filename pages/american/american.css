@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* header styles */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    font-weight: 500;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 42, 42);
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.social-icons li {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* end of header styles */
+
+
+/* car demo styles */
+
+.car-demo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.demo-head {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-head h3 {
+    color: #ad3124;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.demo-head h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+
+/* end of car demo styles */
