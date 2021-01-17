@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* header styles */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    font-weight: 500;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 42, 42);
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.social-icons li {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* end of header styles */
+
+
+/* car demo styles */
+
+.car-demo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.demo-head {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-head h3 {
+    color: #ad3124;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.demo-head h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+
+/* jeep section */
+
+.toyota {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.toyota-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.toyota-image img {
+    /* width: 100%; */
+    height: 548px;
+}
+
+.toyota-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.toyota-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.toyota-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.toyota-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.toyota-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toyota-parts h3 {
+    font-size: 1.5rem;
+}
+
+.toyota-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.toyota-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of jeep section */
+
+
+/* nissan section */
+
+.nissan {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.nissan-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nissan-image img {}
+
+.nissan-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.nissan-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.nissan-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.nissan-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.nissan-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nissan-parts h3 {
+    font-size: 1.5rem;
+}
+
+.nissan-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.nissan-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of nissan section */
+
+
+/* honda section */
+
+.honda {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.honda-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.honda-image img {
+    /* width: 600px; */
+    height: 550px;
+}
+
+.honda-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.honda-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.honda-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.honda-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.honda-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.honda-parts h3 {
+    font-size: 1.5rem;
+}
+
+.honda-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.honda-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of honda section */
+
+
+/* end of car demo styles */
+
+
+/* request section */
+
+.request-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background: #e74c3c;
+}
+
+.request-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.request-text h1 {
+    font-size: 5rem;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.request-text p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.request-button {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-button button {
+    padding: 25px;
+    width: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* end of request section */
+
+
+/* footer styles */
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    background: #000;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contents a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.footer-contents a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.footer-contents h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer-contents p {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.footer-icons {
+    margin-top: 30px;
+}
+
+.footer-icons i {
+    background: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+    background: #464443;
+    border: none;
+}
+
+#form button {
+    margin-top: 20px;
+    border: none;
+    background: #e74c3c;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* footer styles */
+
+
+/* chevron styles */
+
+
+/* .chevron {
+    display: flex;
+    position: absolute;
+    background: #e74c3c;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    top: 1225%;
+    cursor: pointer;
+}
+
+.chevron i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} */
+
+#myButton {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #e74c3c;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    z-index: 99;
+    color: #fff;
+    padding: 10px;
+    transition: ease .5s;
+}
+
+#myButton i {
+    padding: 10px;
+    display: flex;
+}
+
+
+/* end of chevron styles */
