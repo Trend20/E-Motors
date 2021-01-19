@@ -184,12 +184,17 @@ nav ul li a:hover {
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
 .toyota-image img {
-    /* width: 100%; */
-    height: 548px;
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
 }
 
 .toyota-text {
@@ -257,10 +262,18 @@ nav ul li a:hover {
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
-.nissan-image img {}
+.nissan-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
 
 .nissan-text {
     display: flex;
@@ -327,12 +340,17 @@ nav ul li a:hover {
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
 .honda-image img {
-    /* width: 600px; */
-    height: 550px;
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
 }
 
 .honda-text {

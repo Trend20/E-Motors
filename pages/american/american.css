@@ -257,10 +257,18 @@ nav ul li a:hover {
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
-.chrysler-image img {}
+.chrysler-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
 
 .chrysler-text {
     display: flex;

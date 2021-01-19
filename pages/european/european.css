@@ -171,28 +171,33 @@ nav ul li a:hover {
 }
 
 
-/* jeep section */
+/* volkswagen section */
 
-.toyota {
+.volkswagen {
     display: flex;
     width: 100%;
     padding: 50px;
 }
 
-.toyota-image {
+.volkswagen-image {
     display: flex;
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
-.toyota-image img {
-    /* width: 100%; */
-    height: 548px;
+.volkswagen-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
 }
 
-.toyota-text {
+.volkswagen-text {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -201,68 +206,230 @@ nav ul li a:hover {
     z-index: 99;
 }
 
-.toyota-text h1 {
+.volkswagen-text h1 {
     font-size: 3rem;
     display: flex;
 }
 
-.toyota-text span {
+.volkswagen-text span {
     margin-top: 20px;
     border: 1px solid #ad3124;
     width: 10%;
 }
 
-.toyota-text p {
+.volkswagen-text p {
     margin-top: 15px;
     line-height: 1.8;
     width: 100%;
 }
 
-.toyota-parts {
+.volkswagen-parts {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.toyota-parts h3 {
+.volkswagen-parts h3 {
     font-size: 1.5rem;
 }
 
-.toyota-parts p {
+.volkswagen-parts p {
     display: flex;
     align-items: center;
 }
 
-.toyota-parts i {
+.volkswagen-parts i {
     color: #ad3124;
     font-size: 1.5rem;
     margin-right: 20px;
 }
 
 
-/* end of jeep section */
+/* end of volkswagen section */
+
+
+/* bmw section */
+
+.bmw {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.bmw-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
+}
+
+.bmw-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
+
+.bmw-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.bmw-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.bmw-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.bmw-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.bmw-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bmw-parts h3 {
+    font-size: 1.5rem;
+}
+
+.bmw-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.bmw-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of bmw section */
+
+
+/* benz section */
+
+.benz {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.benz-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
+}
+
+.benz-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
+
+.benz-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.benz-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.benz-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.benz-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.benz-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benz-parts h3 {
+    font-size: 1.5rem;
+}
+
+.benz-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.benz-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of benz section */
 
 
 /* nissan section */
 
-.nissan {
+.audi {
     display: flex;
     width: 100%;
     padding: 50px;
     padding-top: 10px;
 }
 
-.nissan-image {
+.audi-image {
     display: flex;
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
-.nissan-image img {}
+.audi-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
 
-.nissan-text {
+.audi-text {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -271,71 +438,76 @@ nav ul li a:hover {
     z-index: 99;
 }
 
-.nissan-text h1 {
+.audi-text h1 {
     font-size: 3rem;
     display: flex;
 }
 
-.nissan-text span {
+.audi-text span {
     margin-top: 20px;
     border: 1px solid #ad3124;
     width: 10%;
 }
 
-.nissan-text p {
+.audi-text p {
     margin-top: 15px;
     line-height: 1.8;
     width: 100%;
 }
 
-.nissan-parts {
+.audi-parts {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.nissan-parts h3 {
+.audi-parts h3 {
     font-size: 1.5rem;
 }
 
-.nissan-parts p {
+.audi-parts p {
     display: flex;
     align-items: center;
 }
 
-.nissan-parts i {
+.audi-parts i {
     color: #ad3124;
     font-size: 1.5rem;
     margin-right: 20px;
 }
 
 
-/* end of nissan section */
+/* end of audi section */
 
 
-/* honda section */
+/* volvo section */
 
-.honda {
+.volvo {
     display: flex;
     width: 100%;
     padding: 50px;
     padding-top: 10px;
 }
 
-.honda-image {
+.volvo-image {
     display: flex;
     width: 50%;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
 }
 
-.honda-image img {
-    /* width: 600px; */
-    height: 550px;
+.volvo-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
 }
 
-.honda-text {
+.volvo-text {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -344,46 +516,46 @@ nav ul li a:hover {
     z-index: 99;
 }
 
-.honda-text h1 {
+.volvo-text h1 {
     font-size: 3rem;
     display: flex;
 }
 
-.honda-text span {
+.volvo-text span {
     margin-top: 20px;
     border: 1px solid #ad3124;
     width: 10%;
 }
 
-.honda-text p {
+.volvo-text p {
     margin-top: 15px;
     line-height: 1.8;
     width: 100%;
 }
 
-.honda-parts {
+.volvo-parts {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.honda-parts h3 {
+.volvo-parts h3 {
     font-size: 1.5rem;
 }
 
-.honda-parts p {
+.volvo-parts p {
     display: flex;
     align-items: center;
 }
 
-.honda-parts i {
+.volvo-parts i {
     color: #ad3124;
     font-size: 1.5rem;
     margin-right: 20px;
 }
 
 
-/* end of honda section */
+/* end of volvo section */
 
 
 /* end of car demo styles */
