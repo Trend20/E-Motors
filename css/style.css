@@ -440,6 +440,7 @@ nav ul li a {
     }
     /* end of hero styles */    
 }
+
 /* about us styles */
 
 .about-us {
@@ -517,6 +518,13 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+.about-text button:hover{
+    background: #e74c3c;
+    color: #fff;
+    border: 3px solid #fff;
 }
 
 .client-total {
@@ -529,7 +537,7 @@ nav ul li a {
     color: #fff;
     padding: 30px;
     position: absolute;
-    top: 230%;
+    top: 220%;
     left: 10%;
     height: 300px;
     width: 20%;
@@ -584,6 +592,7 @@ nav ul li a {
     font-size: 3rem;
     margin-top: 20px;
     display: flex;
+    width: 80%;
 }
 
 .purpose-description {
@@ -1069,7 +1078,7 @@ strong {
     margin-top: 30px;
     display: flex;
     width: 80%;
-    margin-left: 100px;
+    margin-left: 150px;
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 30px;
