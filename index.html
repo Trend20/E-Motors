@@ -21,8 +21,7 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- Responsiveness -->
-    <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 
 <body>
@@ -36,21 +35,15 @@
         <!-- header -->
 
         <header>
-            <!-- logo -->
             <div class="logo">
                 <a href="index.html">
                     <img src="./images/logo1.svg" alt="" style="width: 10rem;">
                 </a>
             </div>
-            <!-- end of logo -->
 
-            <!-- navigation bar -->
             <nav>
                 <ul>
-                    <!-- nav link -->
-                    <li><a href="#about">About us</a></li>
-
-                    <!-- nav link -->
+                    <li><a href="#about" class="active">About</a></li>
                     <li>
                         <div class="dropdown">
                             <button class="dropbtn">Auto Parts 
@@ -63,24 +56,25 @@
                             </div>
                         </div>
                     </li>
-
-                    <!-- nav link -->
                     <li><a href="#testimonials">Testimonials</a></li>
-
-                    <!-- nav link -->
                     <li><a href="#contact">Contacts</a></li>
                 </ul>
+
                 <div class="social-icons">
-                    <!-- social link -->
+                   
                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
 
-                    <!-- social link -->
+                   
                     <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
 
-                    <!-- social link -->
+                    
                     <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
                 </div>
             </nav>
+    
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </header>
 
         <!-- end of header -->
@@ -639,6 +633,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+     <!-- script -->
+     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
     <script>
         $(".slider").owlCarousel({
             loop: true,
@@ -647,6 +644,14 @@
             autoplayHoverPause: true,
         });
     </script>
+
+   <script>
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('nav').toggleClass('active');
+        })
+    })
+   </script>
 
     <script src="./js/main.js"></script>
 </body>
